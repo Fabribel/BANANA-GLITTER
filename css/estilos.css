@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62,5%;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(../images/Background_-_05.jpg);
+    width: 100%;
+    background-repeat:repeat;
+    height: auto;
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 75px;
+    color: black;
+    padding-top: 2rem;
+  
+}
+
+main h3{   
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+header{
+    background-color: black;
+}
+
+video{
+    padding-top: 2rem;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+
+
+.barraMain img {
+    max-height: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8rem;
+ }
+ 
+.barraMain{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    
+}
+
+@media (max-width: 720px) {
+    .barraMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 2rem;
+    
+    }
+
+    .barraMain__nav{  
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-items: center;   
+}
+    .barraMain img{
+        padding-left: 0rem;
+    }
+
+  
+}
+
+.barraMain__nav a {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right:  1.5rem;
+    padding-left: 1.5rem;
+    text-decoration: none;  
+    color: hotpink;
+    font-size: 1.6rem;
+    font-family: 'Antonio', sans-serif;
+    border-color: hotpink;
+    border-style: solid;
+    border-radius: 15px 45px;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.barraMain__nav a:hover{
+    transform: scale(2,2);
+    background-color: black;
+    transition: 0.5s;
+
+
+}
+
+.boton__main{
+    border-radius: 15px 45px;
+    font-size: 1.5rem;
+    box-shadow: inset;
+    padding-bottom: 0.5rem;
+    height: 50px;
+    width: 15rem;
+    box-shadow: 10px 5px 10px rosybrown;
+    background-color: yellow;
+    font-family: 'Antonio', sans-serif;
+    color: hotpink;
+    text-decoration: none;
+    border-color: hotpink;
+}   
+
+.boton__main__texto{
+    color: hotpink;
+
+}
+.main__presentacion{
+    background-image: url(../images/ojitos.jpg);
+    background-size: auto;
+    padding-bottom: 4rem; 
+    opacity: 0.8; 
+}
+
+@media (max-width:768px ) {
+    .main__presentacion{
+        background-size: cover;
+    }
+}
+
+.seccion__titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Antonio', sans-serif;
+    text-decoration: underline;
+    padding-top: 2rem;
+
+}
+.contenedor{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 720px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+.contenedor__seccion{
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12); 
+    background: linear-gradient(0deg, rgba(213,94,236,0.43461134453781514) 0%, rgba(253,187,45,1) 100%);
+    width: 2,5rem;
+    margin: 100px auto;
+    border-radius: 5px;
+    font-family: 'Antonio', sans-serif;
+    color: wheat;
+    font-weight: bold;
+}
+
+.contenedor__seccion img{ 
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista2 li{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px; 
+    
+}
+.lista2 a{
+    font-family: 'Antonio', sans-serif;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    color:white
+}
+
+footer img {
+    width: 3rem;
+    height: 3rem;
+}
+.imgfooter{
+    padding-left: 30rem;
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+.botonMain a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}   
+
+.contenedor__staff{
+
+
+}
+
+.contenedor__staff__h1{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.contenedor__staff__img{
+    padding-top: 2rem;
+    width: 30%;
+    height: auto;
+}
+
+.contenedor__staff__p {
+        font-size: 1.5rem;
+}
+
+.contenedor__unite{
+    margin: 0 auto;
+    max-width: 800px;
+    height: 100vh;
+    
+}
+.contenedor__unite p {
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.5rem;
+}
+.contenedor__unite img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 100%;
+}
+
+.contenedor__principal__promos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px ) {
+    .contendor__principal__promos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contenedor__promos__gold, .contenedor__promos__silver, .contenedor__promos__rainbow, .contenedor__promos__mundial{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+}
+.contenedor__promociones h1 {
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.contendor__promos_p{
+    font-family: 'Antonio', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.contenedor__promos__texto h2{
+    padding-bottom: 2rem;
+    text-decoration: underline;
+    color:black;
+}
+.contenedor__promos__gold{
+    padding-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, rgba(213,94,236,0.43461134453781514) 0%, rgba(253,187,45,1) 100%);
+    margin-bottom: 2rem;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Antonio', sans-serif;
+    color: wheat;
+    font-weight: bold;
+
+}
+
+.contenedor__promos__gold img {
+    border-radius: 20%;
+    padding-right: 1rem;
+    margin-right: 5rem;
+    width:auto;
+    max-height: 300px;
+}
+
+.contenedor__promos__silver{
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, rgba(213,94,236,0.43461134453781514) 0%, rgba(253,187,45,1) 100%);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Antonio', sans-serif;
+    color: wheat;
+    font-weight: bold;
+} 
+
+.contenedor__promos__silver img {
+    border-radius: 20%;
+    padding-right: 1rem;
+    margin-right: 5rem;
+    width:auto;
+    max-width: 315px;
+}
+
+.contenedor__promos__rainbow{
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, rgba(213,94,236,0.43461134453781514) 0%, rgba(253,187,45,1) 100%);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Antonio', sans-serif;
+    color: wheat;
+    font-weight: bold;
+    
+}
+
+.contenedor__promos__rainbow img {
+    margin-right: 5rem;
+    border-radius: 20%;
+    padding-right: 1rem;
+    width:auto;
+    max-height: 300px;
+}
+
+.contenedor__promos__mundial{
+    margin-bottom: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, rgba(213,94,236,0.43461134453781514) 0%, rgba(253,187,45,1) 100%);
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Antonio', sans-serif;
+    color: wheat;
+    font-weight: bold;
+
+}
+
+.contenedor__promos__mundial img {
+    border-radius: 20%;
+    padding-right: 1rem;
+    margin-right: 5rem;
+    width: auto;
+    max-height: 300px;
+}
+
+.contenedor__promos__boton{
+    margin-top: 2rem;
+    border-radius: 15px 45px;
+    font-size: 1.5rem;
+    box-shadow: inset;
+    padding-bottom: 0.5rem;
+    height: 50px;
+    width: 15rem;
+    box-shadow: 10px 5px 10px rosybrown;
+    background-color: yellow;
+    font-family: 'Antonio', sans-serif;
+    color: hotpink;
+    text-decoration: none;
+    border-color: hotpink;
+}   
+
+.contenedor__promos__boton a{
+    text-decoration: underline;
+    color: hotpink;
+}
