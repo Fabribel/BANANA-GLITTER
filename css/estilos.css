@@ -260,12 +260,12 @@ footer img {
     max-width: 100%;
 }
 
-.contenedor__principal__promos{
+/* .contenedor__principal__promos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 @media (max-width:768px ) {
     .contendor__principal__promos{
