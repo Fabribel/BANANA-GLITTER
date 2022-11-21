@@ -136,14 +136,14 @@ video{
 }
 .main__presentacion{
     background-image: url(../images/ojitos.jpg);
-    background-size: auto;
+    background-size: cover;
     padding-bottom: 4rem; 
     opacity: 0.8; 
 }
 
 @media (max-width:768px ) {
     .main__presentacion{
-        background-size: cover;
+    background-size: cover;
     }
 }
 
@@ -292,7 +292,7 @@ footer img {
 .titulo__promos{
     font-size: 7rem;
     font-weight: 700;
-    background: url(/images/fondoletras.jpg);
+    background: url(../images/fondoletras.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -460,7 +460,7 @@ footer img {
 .titulo__galeria{
     font-size: 7rem;
     font-weight: 700;
-    background: url(/images/fondoletras.jpg);
+    background: url(../images/fondoletras.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
