@@ -272,13 +272,6 @@ footer img {
     max-width: 100%;
 }
 
-/* .contenedor__principal__promos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 @media (max-width:768px ) {
     .contendor__principal__promos{
         display: flex;
@@ -291,12 +284,23 @@ footer img {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin: auto;
     
     }
 
 }
+.titulo__promos{
+    font-size: 7rem;
+    font-weight: 700;
+    background: url(/images/fondoletras.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 .contenedor__promociones h1 {
+    font-size: 10rem;
     padding-bottom: 2rem;
+    font-weight: 700;
     /* text-decoration: underline; */
 }
 
@@ -336,7 +340,7 @@ footer img {
 .contenedor__promos__gold img {
     border-radius: 20%;
     padding-right: 1rem;
-    margin-right: 5rem;
+    margin-right: auto;
     width:auto;
     max-height: 300px;
 }
@@ -364,7 +368,7 @@ footer img {
 .contenedor__promos__silver img {
     border-radius: 20%;
     padding-right: 1rem;
-    margin-right: 5rem;
+    margin-right: auto;
     width:auto;
     max-width: 315px;
 }
@@ -391,7 +395,7 @@ footer img {
 }
 
 .contenedor__promos__rainbow img {
-    margin-right: 5rem;
+    margin-right: auto;
     border-radius: 20%;
     padding-right: 1rem;
     width:auto;
@@ -422,7 +426,7 @@ footer img {
 .contenedor__promos__mundial img {
     border-radius: 20%;
     padding-right: 1rem;
-    margin-right: 5rem;
+    margin-right: auto;
     width: auto;
     max-height: 300px;
 }
@@ -451,16 +455,19 @@ footer img {
 .img__galeria{
     background-color: transparent;
 
-}
+  }
 
 .titulo__galeria{
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 700;
-    background: rgb(255,255,255);
-    background: linear-gradient(97deg, rgba(255,255,255,1) 26%, rgba(246,115,245,0.5886729691876751) 63%);
+    background: url(/images/fondoletras.jpg);
     -webkit-background-clip: text;
-    color: transparent;
-}
+    -webkit-text-fill-color: transparent;
+  }
+
+  h4{
+    color: wheat;
+  }
 
 .imgHover{
     transition: all 2s;
