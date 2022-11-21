@@ -236,10 +236,7 @@ footer img {
     color: black;
 }   
 
-.contenedor__staff{
 
-
-}
 
 .contenedor__staff__h1{
     font-size: 4rem;
@@ -295,6 +292,7 @@ footer img {
     background: url(../images/fondoletras.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
   }
 
 .contenedor__promociones h1 {
