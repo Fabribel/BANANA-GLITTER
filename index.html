@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,20 +15,34 @@
 <body>
     
 
-    <header class="">
-        <nav class="barraMain">
-            <img src="images/@bananasglitterrAAAA.png" alt="logo">
-            
-                <div class="barraMain__nav">
-                <a href="index.html">Inicio</a>
-                <a href="./pages/bananastaff.html">BananaStaff</a>
-                <a href="./pages/packs.html">Packs</a>
-                <a href="./pages/unite.html">Unite al staff</a>
-                <a href="./pages/contacto.html">Contacto</a>
-                </div>
-            
-        </nav>
-
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../images/@bananasglitterrAAAA.png" width="200px" alt=""></a>
+              <button class="navbar-toggler boton__menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon boton__hambur"></span>
+              </button>
+              <div class="collapse navbar-collapse barraMain" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link active hov__nav" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="./pages/bananastaff.html">Banana staff</a>
+                  </li>
+                  <li class="nav-item hov__nav ">
+                    <a class="nav-link barraMain_nav" href="./pages/packs.html">Packs</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="./pages/unite.html">Unite</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
       <main>
@@ -41,10 +56,7 @@
                 
             </section>
 
-         
-
             <div class="contenedor">
-
 
                 <section class="contenedor__seccion">
                 <img src="./images/STAND DE BANANA.jpg" alt="standDeBanana">
@@ -60,9 +72,6 @@
                 <img src="./images/chica1.jpg" alt="fotoChica">
                 <p>La mejor atencion, siempre en manos de nuestro bananastaff</p>
                 </section>
-                
-
-           
         </div>
     </main>
 
@@ -84,5 +93,6 @@
 
 
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

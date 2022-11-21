@@ -49,7 +49,7 @@ video{
 .barraMain{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -79,14 +79,16 @@ video{
   
 }
 
-.barraMain__nav a {
+.barraMain a {
+    text-align: center;
+    width: 160px;
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
     padding-right:  1.5rem;
     padding-left: 1.5rem;
     text-decoration: none;  
     color: hotpink;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'Antonio', sans-serif;
     border-color: hotpink;
     border-style: solid;
@@ -95,14 +97,24 @@ video{
     text-decoration: underline;
 }
 
-.barraMain__nav a:hover{
-    transform: scale(2,2);
+.hov__nav a:hover{
+    color: hotpink;
+    transform: scale(1,1);
     background-color: black;
     transition: 0.5s;
 
 
 }
 
+.boton__menu{
+    border: 2px solid hotpink;
+
+}
+
+.boton__hambur{
+    border-radius: 25%;
+    background-image:url(../images/flecha.png)
+}
 .boton__main{
     border-radius: 15px 45px;
     font-size: 1.5rem;
