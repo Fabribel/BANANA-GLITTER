@@ -1,3 +1,213 @@
+@media (max-width: 768px) {
+  .main__presentacion {
+    background-size: cover; } }
+
+@media (max-width: 720px) {
+  .barraMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem; }
+  .barraMain__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center; }
+  .barraMain img {
+    padding-left: 0rem; } }
+
+@media (max-width: 768px) {
+  .contendor__principal__promos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  .contenedor__promos__gold, .contenedor__promos__silver, .contenedor__promos__rainbow, .contenedor__promos__mundial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; } }
+
+@media (max-width: 720px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 720px) {
+  .contenedor__info {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media (max-width: 720px) {
+  .titulo__galeria {
+    max-width: 700px; } }
+
+.titulo__promos {
+  font-size: 7rem;
+  font-weight: 700;
+  background: url(../images/fondoletras.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.contenedor__promociones h1 {
+  font-size: 10rem;
+  padding-bottom: 2rem;
+  font-weight: 700; }
+
+.contendor__promos_p {
+  font-family: "Antonio", sans-serif;
+  padding-bottom: 2rem;
+  font-size: 1.5rem; }
+
+.contenedor__promos__texto h2 {
+  padding-bottom: 2rem;
+  color: black; }
+
+.contenedor__promos__gold {
+  padding-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
+  margin-bottom: 2rem;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: "Antonio", sans-serif;
+  color: wheat;
+  font-weight: bold; }
+
+.contenedor__promos__gold img {
+  border-radius: 20%;
+  padding-right: 1rem;
+  margin-right: auto;
+  width: auto;
+  max-height: 300px; }
+
+.contenedor__promos__silver {
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: "Antonio", sans-serif;
+  color: wheat;
+  font-weight: bold; }
+
+.contenedor__promos__silver img {
+  border-radius: 20%;
+  padding-right: 1rem;
+  margin-right: auto;
+  width: auto;
+  max-width: 315px; }
+
+.contenedor__promos__rainbow {
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: "Antonio", sans-serif;
+  color: wheat;
+  font-weight: bold; }
+
+.contenedor__promos__rainbow img {
+  margin-right: auto;
+  border-radius: 20%;
+  padding-right: 1rem;
+  width: auto;
+  max-height: 300px; }
+
+.contenedor__promos__mundial {
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: "Antonio", sans-serif;
+  color: wheat;
+  font-weight: bold; }
+
+.contenedor__promos__mundial img {
+  border-radius: 20%;
+  padding-right: 1rem;
+  margin-right: auto;
+  width: auto;
+  max-height: 300px; }
+
+.contenedor__promos__boton {
+  margin-top: 2rem;
+  border-radius: 15px 45px;
+  font-size: 1.5rem;
+  box-shadow: inset;
+  padding-bottom: 0.5rem;
+  height: 50px;
+  width: 15rem;
+  box-shadow: 10px 5px 10px rosybrown;
+  background-color: yellow;
+  font-family: "Antonio", sans-serif;
+  color: hotpink;
+  text-decoration: none;
+  border-color: hotpink; }
+
+.contenedor__promos__boton a {
+  text-decoration: none;
+  color: hotpink; }
+
+.contenedor__info {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.formulario__contenedor .formulario__label {
+  border-radius: 15px 45px;
+  font-size: 1.5rem;
+  box-shadow: inset;
+  height: 50px;
+  width: 15rem;
+  box-shadow: 10px 5px 10px rosybrown;
+  background-color: yellow;
+  font-family: "Antonio", sans-serif;
+  color: hotpink;
+  text-decoration: none;
+  border-color: hotpink;
+  font-family: "Antonio", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem; }
+
+.formulario__contenedor .formulario__area {
+  background-color: yellow;
+  color: hotpink;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: inset; }
+
+.contenedor__info__redes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  max-width: 500px;
+  padding-top: 2rem; }
+  .contenedor__info__redes h2 {
+    text-align: start;
+    margin-bottom: 2rem; }
+  .contenedor__info__redes p {
+    font-family: "Antonio", sans-serif; }
+  .contenedor__info__redes img {
+    padding-bottom: 0.5rem; }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +223,13 @@ main {
   text-align: center; }
 
 h1 {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-size: 75px;
   color: black;
   padding-top: 2rem; }
 
-  h4 {
-    color: wheat; }
-
 main h3 {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   color: white;
   padding-bottom: 3rem; }
 
@@ -49,20 +256,6 @@ video {
   padding-bottom: 1rem;
   padding-left: 2rem; }
 
-@media (max-width: 720px) {
-  .barraMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 2rem; }
-  .barraMain__nav {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    align-items: center; }
-  .barraMain img {
-    padding-left: 0rem; } }
-
 .barraMain a {
   text-align: center;
   width: 160px;
@@ -73,7 +266,7 @@ video {
   text-decoration: none;
   color: hotpink;
   font-size: 1.5rem;
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   border-color: hotpink;
   border-style: solid;
   border-radius: 15px 45px;
@@ -101,7 +294,7 @@ video {
   width: 15rem;
   box-shadow: 10px 5px 10px rosybrown;
   background-color: yellow;
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   color: hotpink;
   text-decoration: none;
   border-color: hotpink; }
@@ -115,26 +308,15 @@ video {
   padding-bottom: 4rem;
   opacity: 0.8; }
 
-@media (max-width: 768px) {
-  .main__presentacion {
-    background-size: cover; } }
-
 .seccion__titulo {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Antonio', sans-serif;
-  /* text-decoration: underline; */
+  font-family: "Antonio", sans-serif;
   padding-top: 2rem; }
 
 .contenedor {
   display: flex;
   justify-content: space-between; }
-
-@media (max-width: 720px) {
-  .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
 
 .contenedor__seccion {
   padding: 1rem 1rem 1rem 1rem;
@@ -143,7 +325,7 @@ video {
   width: 2,5rem;
   margin: 100px auto;
   border-radius: 5px;
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   color: wheat;
   font-weight: bold; }
 
@@ -164,8 +346,7 @@ footer {
   padding-right: 5px; }
 
 .lista2 a {
-  font-family: 'Antonio', sans-serif;
-  /* text-decoration: underline; */
+  font-family: "Antonio", sans-serif;
   color: white;
   text-align: center; }
 
@@ -204,147 +385,13 @@ footer img {
   height: 100vh; }
 
 .contenedor__unite p {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   font-size: 1.5rem; }
 
 .contenedor__unite img {
   padding-top: 2rem;
   padding-bottom: 2rem;
   max-width: 100%; }
-
-@media (max-width: 768px) {
-  .contendor__principal__promos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-  .contenedor__promos__gold, .contenedor__promos__silver, .contenedor__promos__rainbow, .contenedor__promos__mundial {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto; } }
-
-.titulo__promos {
-  font-size: 7rem;
-  font-weight: 700;
-  background: url(../images/fondoletras.jpg);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.contenedor__promociones h1 {
-  font-size: 10rem;
-  padding-bottom: 2rem;
-  font-weight: 700;
-  /* text-decoration: underline; */ }
-
-.contendor__promos_p {
-  font-family: 'Antonio', sans-serif;
-  padding-bottom: 2rem;
-  font-size: 1.5rem; }
-
-.contenedor__promos__texto h2 {
-  padding-bottom: 2rem;
-  /* text-decoration: underline; */
-  color: black; }
-
-.contenedor__promos__gold {
-  padding-bottom: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
-  margin-bottom: 2rem;
-  max-width: 800px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  font-family: 'Antonio', sans-serif;
-  color: wheat;
-  font-weight: bold; }
-
-.contenedor__promos__gold img {
-  border-radius: 20%;
-  padding-right: 1rem;
-  margin-right: auto;
-  width: auto;
-  max-height: 300px; }
-
-.contenedor__promos__silver {
-  margin-bottom: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
-  max-width: 800px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  font-family: 'Antonio', sans-serif;
-  color: wheat;
-  font-weight: bold; }
-
-.contenedor__promos__silver img {
-  border-radius: 20%;
-  padding-right: 1rem;
-  margin-right: auto;
-  width: auto;
-  max-width: 315px; }
-
-.contenedor__promos__rainbow {
-  margin-bottom: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
-  max-width: 800px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  font-family: 'Antonio', sans-serif;
-  color: wheat;
-  font-weight: bold; }
-
-.contenedor__promos__rainbow img {
-  margin-right: auto;
-  border-radius: 20%;
-  padding-right: 1rem;
-  width: auto;
-  max-height: 300px; }
-
-.contenedor__promos__mundial {
-  margin-bottom: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-  background: linear-gradient(0deg, rgba(213, 94, 236, 0.434611) 0%, #fdbb2d 100%);
-  max-width: 800px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  font-family: 'Antonio', sans-serif;
-  color: wheat;
-  font-weight: bold; }
-
-.contenedor__promos__mundial img {
-  border-radius: 20%;
-  padding-right: 1rem;
-  margin-right: auto;
-  width: auto;
-  max-height: 300px; }
-
-.contenedor__promos__boton {
-  margin-top: 2rem;
-  border-radius: 15px 45px;
-  font-size: 1.5rem;
-  box-shadow: inset;
-  padding-bottom: 0.5rem;
-  height: 50px;
-  width: 15rem;
-  box-shadow: 10px 5px 10px rosybrown;
-  background-color: yellow;
-  font-family: 'Antonio', sans-serif;
-  color: hotpink;
-  text-decoration: none;
-  border-color: hotpink; }
-
-.contenedor__promos__boton a {
-  text-decoration: none;
-  color: hotpink; }
 
 .img__galeria {
   background-color: transparent; }
@@ -355,6 +402,9 @@ footer img {
   background: url(../images/fondoletras.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+h4 {
+  color: wheat; }
 
 .imgHover {
   transition: all 2s;
