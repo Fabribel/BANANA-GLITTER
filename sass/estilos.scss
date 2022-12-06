@@ -123,7 +123,10 @@ video{
     opacity: 0.8; 
 }
 
-
+.main__presentacion__h2{
+    color: black;
+    font-family: $fuente;
+}
 
 .seccion__titulo{
     text-align: center;
@@ -219,7 +222,7 @@ footer img {
 .contenedor__unite{
     margin: 0 auto;
     max-width: 800px;
-    height: 100vh;
+    width: 100vh;
     
 }
 .contenedor__unite p {

@@ -308,6 +308,10 @@ video {
   padding-bottom: 4rem;
   opacity: 0.8; }
 
+.main__presentacion__h2 {
+  color: black;
+  font-family: "Antonio", sans-serif; }
+
 .seccion__titulo {
   text-align: center;
   font-size: 2rem;
@@ -382,7 +386,7 @@ footer img {
 .contenedor__unite {
   margin: 0 auto;
   max-width: 800px;
-  height: 100vh; }
+  width: 100vh; }
 
 .contenedor__unite p {
   font-family: "Antonio", sans-serif;
