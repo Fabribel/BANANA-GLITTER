@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,91 +14,110 @@
     </head>
 <body>
     <header>
-        <nav class="barraMain">
-            <a href="/index.html"><img src="../images/@bananasglitterrAAAA.png" alt="logo"></a>
-
-        <div class="barraMain__nav">
-            <a href="../index.html">Inicio</a>
-            <a href="bananastaff.html">BananaStaff</a>
-            <a href="packs.html">Packs</a>
-            <a href="unite.html">Unite al staff</a>
-            <a href="contacto.html">Contacto</a>
-        </div>
-        </nav>
-
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img loading="lazy" src="../images/@bananasglitterrAAAA.png" width="200px" alt=""></a>
+              <button class="navbar-toggler boton__menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon boton__hambur"></span>
+              </button>
+              <div class="collapse navbar-collapse barraMain" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link active hov__nav" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item hov__nav ">
+                    <a class="nav-link barraMain_nav" href="../pages/packs.html">Packs</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="../pages/unite.html">Unite</a>
+                  </li>
+                  <li class="nav-item hov__nav">
+                    <a class="nav-link barraMain_nav" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <h1>Promociones</h1>
-        <p class="contendor__promos_p"> Bananaglitter no solo lleva la fiesta donde la necesitas, si no que tambien te ofrece las mejores promos para que te armes la fiesta vos misma!</p>
+        <h1 class="titulo__promos">Packs</h1>
+        <h4 class="contendor__promos_p"> Bananaglitter no solo lleva la fiesta donde la necesitas, si no que tambien te ofrece las mejores promos para que te armes la fiesta vos misma!</h4>
 
-       <div class="contenedor__principal__promos">
-
-        <section class="contenedor__promos__gold">
-            <img src="../images/promoOro.jpg" alt="promoOro">
+        <div class="container container-sm container-lg">
+            <div class=" row justify-content-center">
+            <section class="contenedor__promos__gold d-flex justify-content-center">
+            <img loading="lazy" src="../images/promoOro.jpg" alt="promoOro">
             <div class="contenedor__promos__texto">
             <h2>Promo gold</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                  Glitter gel de 40g, tono dorado brillante listo para aplicar <br>
+                  Sombra en crema color dorado<br>
+                  Pack de stencil con estrellas y soles doradas<br>
                 </p>
                 <button class="contenedor__promos__boton"><a class="contenedor__promos__boton__texto" href="">Reservar por wpp</a></button>
             </div>
+        </div>
         </section>
-       
+
+        <div class="row justify-content-center">
         <section class="contenedor__promos__silver">
-            <img src="../images/platapromo.jpeg" alt="promoSilver">
+            <img loading="lazy" src="../images/platapromo.jpeg" alt="promoSilver">
             <div class="contenedor__promos__texto">
             <h2>Promo silver</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+              Glitter gel de 40g, tono plateado brillante listo para aplicar <br>
+              Sombra en crema color plateado<br>
+              Pack de stencil con estrellas y lunas plateadas<br>
                 <button class="contenedor__promos__boton"><a href="">Reservar por wpp</a></button>
             </p>
             </div>
-            
+        </div>
         </section>
-       
+
+        <div class="row justify-content-center">
         <section class="contenedor__promos__rainbow">
-            <img src="../images/promorainbow.jpeg" alt="promoRainbow">
+            <img loading="lazy" src="../images/promorainbow.jpeg" alt="promoRainbow">
             <div class="contenedor__promos__texto">
             <h2>Promo Rainbow</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                LLuvia multicolor para las mas coloridas! <br>
+                Glitter gel multiculor de 40g listo para aplicar <br>
+                Pack stencil de arco iris<br>
+                <br>
                 <button class="contenedor__promos__boton"><a href="">Reservar por wpp</a></button>
             </p>
         </div>
+        </div>
         </section>
-       
+
+        <div class="row justify-content-center">
         <section class="contenedor__promos__mundial">
-            <img src="../images/promomundial.jpeg" alt="promoMundial">
+            <img loading="lazy" src="../images/promomundial.jpeg" alt="promoMundial">
             <div class="contenedor__promos__texto">
             <h2>Promo mundial</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                Glitter gel de 40g, tono celeste y blanco, listo para aplicar<br>
+                Sombra en crema celeste y blanco<br>
+                Pack stencil, pelota y banderas<br>
+                El mejor pack para vivir el mundial!
                 <button class="contenedor__promos__boton"><a href="">Reservar por wpp</a></button>
             </p>
             </div>
-            
+        </div>
         </section>
+
     </div>
-    
     </main>
 
     <footer>
-        <div class="imgFooter">
-        <img src="../images/instagram-png.png" alt="logoins">
-        <img src="../images/whatsapp_logo.png" alt="logowpp">
-        </div>
+
             <nav class="barraMain2">
                 <ul class="lista2">
                     <li> <a href="index.html">Inicio</a></li>
-                    <li> <a href="bananastaff.html">BananaStaff</a></li>
+                    <li> <a href="galeria.html">Galeria</a></li>
                     <li> <a href="packs.html">Packs</a></li>
                     <li> <a href="unite.html">Unite al staff</a></li>
                     <li> <a href="contacto.html">Contacto</a></li>
@@ -107,5 +127,6 @@
 
 
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

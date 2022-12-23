@@ -1,0 +1,59 @@
+@media (max-width:768px ) {
+    .main__presentacion{
+    background-size: cover;
+    }
+}
+
+@media (max-width: 720px) {
+    .barraMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 2rem;
+    }
+    .barraMain__nav{  
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        align-items: center;   
+}
+    .barraMain img{
+        padding-left: 0rem;
+    }  
+}
+
+@media (max-width:768px ) {
+    .contendor__principal__promos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contenedor__promos__gold, .contenedor__promos__silver, .contenedor__promos__rainbow, .contenedor__promos__mundial{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+}
+
+@media (max-width: 720px) {
+    .contenedor__info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 720px) {
+    .titulo__galeria{
+      max-width: 700px;
+    }
+}
+
